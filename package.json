@@ -1,0 +1,21 @@
+{
+  "name": "bash-and-shell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified'",
+    "install:ci": "npm ci --omit=dev --ignore-scripts",
+    "install:root": "npm install",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulAlexSerban/bash-and-shell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulAlexSerban/bash-and-shell/issues"
+  },
+  "homepage": "https://github.com/paulAlexSerban/bash-and-shell#readme"
+}

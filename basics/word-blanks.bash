@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# makes sure the folder containing the script will be the root folder
+cd "$(dirname "$0")" || exit
+
 # Assign a value to avariable
 WORD='script'
 
@@ -14,4 +17,4 @@ ADVERB='quickly'
 
 SENTENCE="The ${ADJECTIVE} ${NOUN} ${VERB} ${ADVERB}"
 
-echo ${SENTENCE}
+echo "${SENTENCE}"

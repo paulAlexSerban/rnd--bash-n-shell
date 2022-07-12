@@ -3,7 +3,7 @@
 ARGUMENT=$1
 
 function arguments () {
-  echo $ARGUMENT
+  echo "$ARGUMENT"
 }
 
 $1
