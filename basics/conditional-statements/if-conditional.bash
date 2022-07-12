@@ -20,9 +20,9 @@ USER_NAME=$(id -un) # USER_NAME=`id -un` is the old syntax
 
 # Test if the command succeeded
   # ${?} - bash variable that holds the exit status of the most recent executed command
-if [[ "${?}" -ne 0 ]]
+if "${?}" -ne 0
 then
-  echo 'The id command dod not execute sccessfully'
+  echo 'The id command did not execute sccessfully'
   exit 1
 fi
 # Display the username
